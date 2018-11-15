@@ -16,7 +16,7 @@ public class AddingInt extends HttpServlet  {
 	public void doPost(HttpServletRequest request,HttpServletResponse response) throws ServletException,IOException
 	{
 
-        response.setContentType("text/html"); 
+            response.setContentType("text/html"); 
 	    int a=Integer.parseInt(request.getParameter("num1"));
             int b=Integer.parseInt(request.getParameter("num2"));
 	    int k;
