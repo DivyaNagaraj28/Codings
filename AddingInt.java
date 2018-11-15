@@ -18,11 +18,11 @@ public class AddingInt extends HttpServlet  {
 
         response.setContentType("text/html"); 
 	    int a=Integer.parseInt(request.getParameter("num1"));
-        int b=Integer.parseInt(request.getParameter("num2"));
+            int b=Integer.parseInt(request.getParameter("num2"));
 	    int k;
 	    k=a+b;
-	   PrintWriter out= response.getWriter();
-	   out.println("The addition of two numbers" +k);
+	    PrintWriter out= response.getWriter();
+	    out.println("The addition of two numbers" +k);
 	}
 
 }
