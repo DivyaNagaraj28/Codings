@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <hibernate-mapping>
+      <class name="com.Product" table="Product">
+          <id name="ProductId">
+              <generator class="assigned" /> 
+          </id>
+      <property name="ProductName" /> 
+      <property name="ProductDescription" /> 
+      <property name="ProductPrice" /> 
+  </class>
+  </hibernate-mapping>
